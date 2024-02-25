@@ -1,4 +1,4 @@
-YOLOv8-pose re-implementation using PyTorch
+通过YOLOv8的关键点检测来实现俯卧撑计数
 
 ### Installation
 
@@ -35,7 +35,7 @@ pip install tqdm
 ### key code
 ```
 P285-299 计算手臂两条直线夹角的函数
-432-440 获得两条直线的坐标表示用来计数夹角
-442-460 通过角度变化up-down来判断一次完整的俯卧撑
+P432-440 获得两条直线的坐标表示用来计数夹角
+P442-460 通过角度变化up-down来判断一次完整的俯卧撑
 
 ```
